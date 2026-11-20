@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta id="metaDescription" name="description" content="Temukan produk rotan pilihan dari Cirebon, cek ketersediaan, hitung harga dan ongkir, serta lihat estimasi pengiriman.">
+  <title id="pageTitle">RIDWANROTAN — Kerajinan Rotan Cirebon</title>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light sticky-top site-nav">
+    <div class="container">
+      <a class="navbar-brand brand-mark" href="#beranda" aria-label="RIDWANROTAN, ke beranda" data-i18n-aria-label="brandAria">
+        <span class="brand-icon" aria-hidden="true">R</span>
+        <span>RIDWAN<span class="brand-accent">ROTAN</span></span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavigation" aria-controls="mainNavigation" aria-expanded="false" aria-label="Buka navigasi" data-i18n-aria-label="openNavigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNavigation">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-3">
+          <li class="nav-item"><a class="nav-link" href="#koleksi" data-i18n="navCollection">Koleksi</a></li>
+          <li class="nav-item"><a class="nav-link" href="#cara-pesan" data-i18n="navHow">Cara pesan</a></li>
+          <li class="nav-item"><a class="nav-link" href="#faq" data-i18n="navFaq">FAQ</a></li>
+          <li class="nav-item">
+            <label class="visually-hidden" for="languageSelect" data-i18n="languageLabel">Pilih bahasa</label>
+            <select class="form-select language-select" id="languageSelect" aria-label="Pilih bahasa" data-i18n-aria-label="languageLabel">
+              <option value="id">Bahasa Indonesia</option>
+              <option value="en">English</option>
+              <option value="zh">中文</option>
+              <option value="ja">日本語</option>
+              <option value="ru">Русский</option>
+              <option value="de">Deutsch</option>
+              <option value="es">Español</option>
+              <option value="ar">العربية</option>
+            </select>
+          </li>
+          <li class="nav-item"><a class="btn btn-nav" href="#kalkulator"><span data-i18n="navQuote">Hitung pesanan</span> <span aria-hidden="true">↗</span></a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section class="hero-section" id="beranda">
+      <div class="container hero-inner">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-6 hero-copy">
+            <p class="eyebrow"><span class="eyebrow-line"></span> <span data-i18n="heroEyebrow">DIBUAT DI CIREBON, DIKIRIM KE MANA SAJA</span></p>
+            <h1 data-i18n-html="heroTitle">Hangatnya alam,<br><em>hadir di rumah.</em></h1>
+            <p class="hero-description" data-i18n="heroDescription">Kerajinan rotan pilihan yang dibuat dengan teliti oleh pengrajin lokal. Temukan koleksi, cek stok, dan hitung kebutuhanmu dengan mudah.</p>
+            <div class="d-flex flex-wrap gap-3 hero-actions">
+              <a class="btn btn-primary-custom" href="#koleksi"><span data-i18n="heroExplore">Jelajahi koleksi</span> <span aria-hidden="true">↓</span></a>
+              <a class="btn btn-text-custom" href="#cara-pesan"><span data-i18n="heroAbout">Kenali RIDWANROTAN</span> <span aria-hidden="true">→</span></a>
+            </div>
+            <div class="hero-proof">
+              <div class="proof-avatars" aria-hidden="true"><span>R</span><span>✳</span><span>R</span></div>
+              <p><strong data-i18n="heroHandmade">100% buatan tangan</strong><br><span data-i18n="heroLocal">Bangga mendukung pengrajin lokal</span></p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="hero-art-wrap">
+              <div class="hero-art-halo"></div>
+              <img class="hero-art" src="./hero-rotan.jpg" alt="Foto rak kerajinan rotan di Cirebon" data-i18n-alt="heroImageAlt">
+              <div class="hero-note">
+                <span class="note-icon" aria-hidden="true">✳</span>
+                <span><strong data-i18n="heroNoteTitle">Sentuhan alami</strong><small data-i18n="heroNoteText">Untuk ruang yang lebih berarti</small></span>
+              </div>
+              <span class="hero-art-caption" data-i18n="heroCaption">01 — koleksi rumah</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-bottom container">
+        <span data-i18n="heroFooter">ROTAN ASLI · KARYA LOKAL · CERITA BERKELANJUTAN</span>
+        <a href="#koleksi" aria-label="Lihat koleksi produk" data-i18n-aria-label="seeCollection">↓</a>
+      </div>
+    </section>
+
+    <section class="section-pad collection-section" id="koleksi">
+      <div class="container">
+        <div class="section-heading row align-items-end">
+          <div class="col-md-7">
+            <p class="eyebrow"><span class="eyebrow-line"></span> <span data-i18n="collectionEyebrow">DIBUAT UNTUK MENEMANI</span></p>
+            <h2 data-i18n-html="collectionTitle">Temukan yang pas<br>untuk <em>ruangmu.</em></h2>
+          </div>
+          <div class="col-md-5">
+            <p class="section-intro" data-i18n="collectionDescription">Setiap anyaman punya karakter. Pilih favoritmu, lihat pilihan warna dan ukuran, lalu cek ketersediaan secara langsung.</p>
+          </div>
+        </div>
+        <div class="row g-4 product-grid" id="productGrid" aria-live="polite">
+          <div class="col-12 text-center py-5"><span class="loading-mark">Memuat koleksi...</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="quote-section" id="kalkulator">
+      <div class="container">
+        <div class="quote-panel">
+          <div class="row g-0">
+            <div class="col-lg-5 quote-intro">
+              <p class="eyebrow eyebrow-light"><span class="eyebrow-line"></span> <span data-i18n="quoteEyebrow">RENCANAKAN PESANAN</span></p>
+              <h2 data-i18n-html="quoteTitle">Hitung dulu,<br><em>lebih tenang.</em></h2>
+              <p data-i18n="quoteDescription">Pilih produk dan tujuan pengiriman. Kami bantu hitung harga produk, ongkir, dan perkiraan waktu sampai.</p>
+              <div class="quote-assurance"><span aria-hidden="true">✓</span> <span data-i18n="quoteAssurance">Perhitungan transparan, tanpa biaya tersembunyi.</span></div>
+            </div>
+            <div class="col-lg-7 quote-form-wrap">
+              <form id="quoteForm" class="quote-form">
+                <div class="row g-3">
+                  <div class="col-12">
+                    <label class="form-label" for="productSelect" data-i18n="productLabel">Produk</label>
+                    <select class="form-select" id="productSelect" required></select>
+                  </div>
+                  <div class="col-md-7">
+                    <label class="form-label" for="variantSelect" data-i18n="variantLabel">Varian</label>
+                    <select class="form-select" id="variantSelect" required></select>
+                  </div>
+                  <div class="col-md-5">
+                    <label class="form-label" for="quantityInput" data-i18n="quantityLabel">Jumlah</label>
+                    <div class="quantity-control">
+                      <button class="quantity-btn" type="button" id="quantityMinus" aria-label="Kurangi jumlah" data-i18n-aria-label="decreaseQuantity">−</button>
+                      <input class="form-control" id="quantityInput" type="number" min="1" value="1" inputmode="numeric" required>
+                      <button class="quantity-btn" type="button" id="quantityPlus" aria-label="Tambah jumlah" data-i18n-aria-label="increaseQuantity">+</button>
+                    </div>
+                    <small class="stock-hint" id="stockHint"></small>
+                  </div>
+                  <div class="col-12">
+                    <label class="form-label" for="destinationSelect" data-i18n="destinationLabel">Kirim ke</label>
+                    <select class="form-select" id="destinationSelect" required></select>
+                  </div>
+                </div>
+                <div class="quote-results" aria-live="polite" aria-atomic="true">
+                  <div class="result-row"><span><span data-i18n="productCost">Harga produk</span> <small id="weightNote"></small></span><strong id="subtotal">—</strong></div>
+                  <div class="result-row"><span><span data-i18n="shippingCostLabel">Biaya pengiriman</span> <small id="shippingNote"></small></span><strong id="shippingCost">—</strong></div>
+                  <div class="result-row result-total"><span data-i18n="estimatedTotal">Total perkiraan</span><strong id="grandTotal">—</strong></div>
+                  <div class="delivery-estimate"><span class="delivery-icon" aria-hidden="true">↗</span><span><span data-i18n="deliveryEstimate">Estimasi sampai</span><strong id="deliveryTime">—</strong></span></div>
+                </div>
+                <p class="quote-disclaimer" data-i18n="quoteDisclaimer">Tarif ekspor adalah simulasi per kg, belum termasuk bea cukai, pajak, asuransi, dan biaya penanganan khusus. Konfirmasikan ongkir serta estimasi final sebelum memesan.</p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-pad how-section" id="cara-pesan">
+      <div class="container">
+        <div class="row g-5 align-items-center">
+          <div class="col-lg-5">
+            <p class="eyebrow"><span class="eyebrow-line"></span> <span data-i18n="howEyebrow">DARI CIREBON UNTUKMU</span></p>
+            <h2 data-i18n-html="howTitle">Alami prosesnya,<br><em>nikmati hasilnya.</em></h2>
+            <p class="section-intro" data-i18n="howDescription">Rotan kami dikerjakan dengan sabar dan dikirim dengan perhatian. Tak perlu menebak-nebak, semua informasi pesanan bisa kamu cek di sini.</p>
+            <a class="btn btn-primary-custom mt-3" href="#kalkulator"><span data-i18n="howCta">Mulai hitung pesanan</span> <span aria-hidden="true">→</span></a>
+          </div>
+          <div class="col-lg-7">
+            <div class="process-list">
+              <article class="process-item">
+                <span class="process-number">01</span>
+                <div><h3 data-i18n="stepOneTitle">Pilih karya favorit</h3><p data-i18n="stepOneText">Jelajahi koleksi dan temukan varian yang cocok dengan kebutuhanmu.</p></div>
+                <span class="process-symbol" aria-hidden="true">⌕</span>
+              </article>
+              <article class="process-item">
+                <span class="process-number">02</span>
+                <div><h3 data-i18n="stepTwoTitle">Cek harga & ongkir</h3><p data-i18n="stepTwoText">Masukkan jumlah dan kota tujuan untuk melihat total perkiraan biaya.</p></div>
+                <span class="process-symbol" aria-hidden="true">＋</span>
+              </article>
+              <article class="process-item">
+                <span class="process-number">03</span>
+                <div><h3 data-i18n="stepThreeTitle">Hubungi kami untuk pesan</h3><p data-i18n="stepThreeText">Catat pilihanmu, lalu hubungi tim kami untuk konfirmasi dan pemesanan.</p></div>
+                <span class="process-symbol" aria-hidden="true">↗</span>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq-section section-pad" id="faq">
+      <div class="container">
+        <div class="row g-5">
+          <div class="col-lg-4">
+            <p class="eyebrow"><span class="eyebrow-line"></span> <span data-i18n="faqEyebrow">ADA YANG INGIN DITANYAKAN?</span></p>
+            <h2 data-i18n-html="faqTitle">Yang sering<br>ditanyakan <em>kamu.</em></h2>
+            <p class="section-intro" data-i18n="faqDescription">Belum menemukan jawabannya? Kami siap membantu menjelaskan lebih lanjut.</p>
+            <a class="faq-contact" href="#kalkulator"><span data-i18n="faqContact">Tanya soal pesanan</span> <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="col-lg-8">
+            <div class="faq-list" id="faqList">
+              <p class="loading-mark">Memuat pertanyaan...</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-main row g-4 align-items-start">
+        <div class="col-lg-6">
+          <a class="navbar-brand brand-mark footer-brand" href="#beranda" aria-label="RIDWANROTAN">
+            <span class="brand-icon" aria-hidden="true">R</span>
+            <span>RIDWAN<span class="brand-accent">ROTAN</span></span>
+          </a>
+          <p data-i18n="footerDescription">Merawat tradisi, merangkai cerita.<br>Kerajinan rotan dari Cirebon.</p>
+        </div>
+        <div class="col-6 col-lg-3">
+          <span class="footer-label" data-i18n="footerExplore">JELAJAHI</span>
+          <a href="#koleksi" data-i18n="footerCollection">Koleksi produk</a>
+          <a href="#kalkulator" data-i18n="footerCalculator">Kalkulator pesanan</a>
+          <a href="#faq" data-i18n="footerFaq">Pertanyaan umum</a>
+        </div>
+        <div class="col-6 col-lg-3">
+          <span class="footer-label" data-i18n="footerFindUs">TEMUKAN KAMI</span>
+          <span data-i18n="footerLocation">Cirebon, Jawa Barat</span>
+          <span data-i18n="footerLocal">Kerajinan lokal, cerita personal.</span>
+        </div>
+      </div>
+      <details class="photo-credits">
+        <summary data-i18n="photoCredits">Kredit foto</summary>
+        <p>“Rattan furniture” — Tbo47, CC0 · <a href="https://commons.wikimedia.org/wiki/File:20230925_rattan_furniture.jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a>.</p>
+        <p>“Cebu Queen's rattan chair” — QueenCityCebu, <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a> · <a href="https://commons.wikimedia.org/wiki/File:Cebu_Queen%27s_rattan_chair.jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a>.</p>
+        <p>“Rattan Basket” — Dama Adhikara, <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a> · <a href="https://commons.wikimedia.org/wiki/File:Rattan_Basket.jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a>.</p>
+        <p>“Rattan Furniture Products 01” — Free2barredo, <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a> · <a href="https://commons.wikimedia.org/wiki/File:Rattan_Furniture_Products_01.jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a>.</p>
+      </details>
+      <div class="footer-bottom">
+        <span>© <span id="currentYear"></span> RIDWANROTAN. <span data-i18n="footerCopyright">Dibuat dengan hati di Cirebon.</span></span>
+        <a href="#beranda" data-i18n="backToTop">Kembali ke atas ↑</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
